@@ -1,0 +1,78 @@
+.recruiter-welcome {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-content h1 {
+  font-size: 2.5rem;
+  color: #0077b5;
+  margin-bottom: 1rem;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.welcome-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h2 {
+  font-size: 1.5rem;
+  color: #0077b5;
+  margin-bottom: 1rem;
+}
+
+.step p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #0077b5;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #005fa3;
+}
+
+@media (max-width: 768px) {
+  .welcome-content h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-content p {
+    font-size: 1rem;
+  }
+
+  .welcome-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
