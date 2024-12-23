@@ -1,4 +1,4 @@
-# 04 Job Board App
+Job Board App
 
 ## Description
 The **04 Job Board App** is a web application designed to help users find job listings. It provides a user-friendly interface for job seekers to browse, filter, and apply for job opportunities.
